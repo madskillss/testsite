@@ -1,9 +1,0 @@
-@media all and (min-width: 1150px)
-{.top-link:hover {background-color: #247089;
-color: white;}}
-.choice:hover {background-color: #B4EDD9;
-border: 2px solid #A4DDC9;}
-.first-item:hover {transform: scale(1.05);
-box-shadow: 0 0 40px 5px rgba(0,0,0,0.1);
-background-color: #92D4C2;}
-.linkhover:hover {color: #fff;}
