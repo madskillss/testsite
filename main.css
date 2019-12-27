@@ -1,0 +1,214 @@
+* { padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
+html, body, header {height: 100%;}
+html {font-size: 10px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 600;}
+
+.first-page {height: 100px;
+display: flex;
+padding: 0 100px;
+width: 97.5%;
+align-items: center;
+justify-content: space-between;
+max-width: 1200px;
+box-shadow: rgba(0,0,0,0.75);}
+
+.logo1 {width: 80px;}
+
+.top-row {display: flex;
+justify-content: flex-end;
+width: 97.5%;
+margin: auto;
+max-width: 1200px;
+align-items: center;}
+
+.top-link {text-decoration: none;
+color: black;
+display: inline-block;
+font-size: 1.6rem;
+letter-spacing: 0.5px;
+padding: 15px;}
+
+.top-link + .top-link {margin-left: 3%;}
+
+.header {background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+background-image: url(12.png);}
+
+.headerdiv {align-items: center;
+display: flex;
+justify-content: center;}
+
+.headertit {text-align: center;
+font-size: 55px;}
+.headertext {text-align: center;
+font-size: 18px;
+letter-spacing: 0.3px;}
+.headerimg {width: 52%;
+align-items: center;}
+
+.header:after {content:'';
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: rgba(0,0,0,0.75);
+z-index: -1;}
+
+
+.about-company {height: 100%;
+background-color: #fff;
+margin-top: 50px;}
+.img11 {align-items: center;
+display: flex;
+width: 100%;
+justify-content: center;}
+.h1 {text-align: center;
+font-size: 5rem;
+letter-spacing: 1px;}
+.h11 {padding-top: 30px;}
+.text11 {font-size: 1.3rem;
+padding: 2rem 0;
+text-align: center;}
+.text {font-size: 1.6rem;
+padding: 2rem 0;
+letter-spacing: 1px;
+width: 50%;
+margin: auto;
+color: #404040;}
+.companyimg {width: 80px;
+margin-top: 40px;}
+.companytext {margin-bottom: 120px;}
+
+
+.lel {display: flex;
+justify-content: center;
+padding: 20px 50px;
+margin-bottom: 15px;}
+.first {text-align: center;
+padding: 60px 0;
+width: 100%;
+height: 100%;
+background-color: #CDFFF0;}
+.head {margin-top: 10px;}
+.h2 {font-size: 4rem;
+color: #116964;}
+.first-item {width: 30%;
+background-color: #BAECDD;
+padding: 40px;
+margin: 20px;
+text-align: center;}
+.first-box {display: flex;
+justify-content: center;
+max-width: 1200px;
+margin: auto;
+justify-content: space-between;
+margin-top: 10px;}
+.text-1 {font-size: 1.3rem;
+padding: 2rem 0;
+color: #809090;}
+.text-2 {font-size: 1.6rem;
+color: #404040;}
+.text-3 {font-size: 1.5rem;
+padding: 2rem 0;
+color: #406060;}
+.link {font-size: 1.4rem;
+text-decoration: none;
+color: #809090;}
+
+
+.h22 {font-size: 4rem;
+color: #116964;}
+.first-box2 {display: flex;
+justify-content: center;
+max-width: 1200px;
+margin: auto;
+justify-content: space-between;
+margin-top: 70px;}
+.first2 {text-align: center;
+padding: 60px 0;}
+.btn , .choice {border: none;
+width: 200px;
+height: 50px;
+font-size: 1.6rem;
+margin-top: 40px;
+display: inline-block;
+color: white;
+text-transform: uppercase;
+font-weight: 600;
+letter-spacing: 1px;
+cursor: pointer;
+transition: 0.3s ease-in;
+border: 2px solid transparent;}
+
+.btn + .btn {margin-left: 20px;}
+
+.h3 {font-size: 2rem;
+margin: 2.5rem 0;
+letter-spacing: 0.7px;}
+
+.icon {display: block;
+width: 80px;
+margin: auto;}
+
+.second {background-color: #e4fdf9;
+width: 75%;
+margin: auto;}
+
+.second-item {width: calc(100% / 3 - 3%);
+margin: 10px;
+background-color: #FFF;
+padding: 6% 2%;}
+
+.second-box {flex-wrap: wrap;
+justify-content: space-between;}
+
+.choice {color: black;}
+
+.last {background-color: #e4fdf9;}
+
+.principal {display: flex;
+justify-content: center;
+margin-top: 45px;
+}
+
+.navuknow {}
+
+.b1 {display: flex;
+margin-top: 15px;}
+.home {font-size: 13px;}
+.img1 {margin: 10px;
+margin-top: 7px;}
+.house {width: 20px;}
+
+.b2 {display: flex;}
+.img2 {margin: 10px;
+margin-top: 0px;}
+.email {width: 20px;}
+.mail {font-size: 13px;}
+
+.b3 {display: flex;}
+.img3 {margin: 10px;
+margin-top: 0px;}
+.number {font-size: 13px;}
+.phone {width: 20px;}
+
+.rights {text-align: center;
+margin-bottom: 15px;}
+
+.b4 {display: block;
+margin-bottom: 10px;
+margin-left: 25px;}
